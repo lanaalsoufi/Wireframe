@@ -11,9 +11,9 @@ var mathoperation=prompt('Please inter a Username');
 console.log(Username);
 
 if(mathoperation=='LANA ALSOUFI'){
-alert('Welcome');
+alert(' No Welcome for me');
 }else{
-alert('NO WELCOME FOR YOU ');
+alert('WELCOME');
 }
 
 alert(5+3);
