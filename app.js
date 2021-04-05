@@ -1,5 +1,8 @@
-alert('Hello Everyone');
-    
+
+     function opening() {
+        alert('Hello Everyone');
+     }
+     opening()
 
 var mathoperation=prompt('Please inter a Username');
 document.write(mathoperation);
@@ -7,9 +10,15 @@ document.write(mathoperation);
 console.log(mathoperation);
 
 if(mathoperation=='LANA ALSOUFI'){
-alert(' No Welcome for me');
+welcome()
+
 }else{
 alert('WELCOME');
+    
+}
+function welcome() {
+    alert(' No Welcome for me'); 
+ 
 }
 
 var summation= prompt('5+3');
@@ -18,9 +27,11 @@ document.write('5+3=',summation);
 var number=prompt('5*3');
 document.write('5*3=',number);
 
+function greeting() {
+    alert('welcome to apple store');
+}
 
-
-alert('welcome to apple store');
+greeting()
 
 var userInput = prompt('please enter iphone type');
 while(userInput !=='iphone 12 pro max' && userInput !=='iphone 11 pro max'){
