@@ -20,27 +20,27 @@ document.write('5*3=',number);
 
 
 
-alert('welcome to my restaurant');
+alert('welcome to apple store');
 
-var userInput = prompt('please enter pasta type');
-while(userInput !=='Spaghetti' && userInput !=='Fettuccine'){
-    var userInput = prompt('Please choose Spaghetti or Fettuccine');
+var userInput = prompt('please enter iphone type');
+while(userInput !=='iphone 12 pro max' && userInput !=='iphone 11 pro max'){
+    var userInput = prompt('Please choose iphone 12 pro max or iphone 11 pro max');
 }
 
-var userInput =prompt('Please enter the number of pasta dishes');
+var userInput =prompt('Please enter the number of iphone');
 
 for (var i = 0; i < userInput; i++){
-    if(userInput == 'Spaghetti'){
-        document.write('<img alt="spaghetti" src ="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/homemade-spaghetti-sauce-horizontal-1530890913.jpg"width ="200"/>');
+    if(userInput == 'iphone 12 pro max'){
+        document.write('<img alt="iphone 12 pro max" src ="https://eshop.orange.jo:250/app-images/thumbs/0001404_apple-iphone-12-pro-max128gb6gbgraphite.jpeg"width ="200"/>');
 
     } else{
-        document.write('<img alt="example" src ="https://www.modernhoney.com/wp-content/uploads/2018/08/Fettuccine-Alfredo-Recipe-1.jpg" width ="200"/>');
+        document.write('<img alt="iphone 11 pro max" src ="https://m.media-amazon.com/images/I/61GggH1hAaL._AC_SS450_.jpg"width ="200"/>');
     }
 
 }
 
 function printName(){
-    document.write('pasta');   
+    document.write('iphone');   
     
 }
     

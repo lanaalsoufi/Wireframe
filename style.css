@@ -1,0 +1,54 @@
+body {
+    width: 960px;
+    margin: auto;
+}
+
+section {
+    background-color: rgba(0, 231, 200, 0.719)
+}
+
+header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+header nav {
+    float: right;
+}
+
+header nav a {
+    padding-left: 10px;
+}
+
+#heroImage {
+    width: 100%; 
+   margin-bottom: 20px;
+}
+
+section table {
+float: right;
+border-collapse: collapse;
+}
+
+table td {
+    border: 1px solid #ccc;
+}
+
+article {
+    width: 50%;
+    display: inline-block;
+}
+
+form * {
+width: 100%;
+}
+
+footer {
+    text-align: center;
+    background-color: #1b2021 ;
+color: #fff;
+}
+
+footer nav a {
+    color: #fff;
+}
